@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SijilKu - Pendaftaran Program + Sijil Automatik</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+*{font-family:'Inter',sans-serif}
+html{scroll-behavior:smooth}
+.gradient-text{background:linear-gradient(135deg,#2563eb,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-bg{background:radial-gradient(ellipse at top,#dbeafe 0%,#fff 60%)}
+</style>
+</head>
+<body class="bg-white text-zinc-900">
+<nav class="fixed top-0 w-full bg-white/80 backdrop-blur-lg border-b border-zinc-100 z-50">
+<div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg flex items-center justify-center">
+<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+</div>
+<span class="text-xl font-bold">SijilKu</span>
+</div>
+<a href="#waitlist" class="px-4 py-2 text-sm font-semibold bg-zinc-900 text-white rounded-lg hover:bg-zinc-800">Daftar Sekarang</a>
+</div>
+</nav>
+<section class="hero-bg pt-32 pb-20 px-6">
+<div class="max-w-3xl mx-auto text-center">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full mb-6 border border-blue-100">
+<span class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></span>Beta Terbuka
+</div>
+<h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">Pendaftaran program +<br><span class="gradient-text">sijil automatik</span><br>dalam satu platform.</h1>
+<p class="text-lg text-zinc-500 max-w-2xl mx-auto mb-10">Bina program, buka pendaftaran, rekod kehadiran, dan jana sijil branded untuk semua peserta — dalam 15 minit.</p>
+<div class="flex flex-col sm:flex-row gap-3 justify-center">
+<a href="#waitlist" class="px-8 py-3.5 bg-zinc-900 text-white font-semibold rounded-xl hover:bg-zinc-800 shadow-lg">Mula Percuma →</a>
+<a href="#features" class="px-8 py-3.5 bg-white text-zinc-700 font-semibold rounded-xl border border-zinc-200 hover:bg-zinc-50">Lihat Features</a>
+</div>
+</div>
+</section>
+<section id="features" class="py-20 px-6">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-16">
+<p class="text-sm font-semibold text-blue-600 uppercase tracking-wider mb-3">Features</p>
+<h2 class="text-3xl md:text-4xl font-bold">Semua yang anda perlukan.</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="bg-white rounded-xl p-6 border border-zinc-200 hover:shadow-lg transition">
+<div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-4"><svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg></div>
+<h3 class="font-semibold mb-2">Program Builder</h3>
+<p class="text-sm text-zinc-500">Bina program dalam 2 minit. Set tarikh, venue, harga, kapasiti. Auto-generate link pendaftaran.</p>
+</div>
+<div class="bg-white rounded-xl p-6 border border-zinc-200 hover:shadow-lg transition">
+<div class="w-10 h-10 bg-violet-50 rounded-lg flex items-center justify-center mb-4"><svg class="w-5 h-5 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+<h3 class="font-semibold mb-2">Sijil Automatik</h3>
+<p class="text-sm text-zinc-500">Jana sijil PDF branded dengan QR code verification. Satu klik untuk semua peserta.</p>
+</div>
+<div class="bg-white rounded-xl p-6 border border-zinc-200 hover:shadow-lg transition">
+<div class="w-10 h-10 bg-amber-50 rounded-lg flex items-center justify-center mb-4"><svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></div>
+<h3 class="font-semibold mb-2">Dashboard Analytics</h3>
+<p class="text-sm text-zinc-500">Track peserta, kehadiran, dan revenue. Semua data dalam satu dashboard.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="waitlist" class="py-20 px-6 bg-zinc-50">
+<div class="max-w-xl mx-auto text-center">
+<h2 class="text-3xl font-bold mb-4">Daftar Waitlist Sekarang</h2>
+<p class="text-zinc-500 mb-8">Jadilah antara yang pertama menggunakan SijilKu. Percuma untuk early adopters.</p>
+<form class="flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault();this.innerHTML='<p class=\'text-green-600 font-semibold text-lg py-4\'>Terima kasih! Kami akan hubungi anda.</p>'">
+<input type="email" placeholder="Email anda" required class="flex-1 px-4 py-3 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+<button type="submit" class="px-6 py-3 bg-zinc-900 text-white font-semibold rounded-xl hover:bg-zinc-800">Daftar →</button>
+</form>
+</div>
+</section>
+<footer class="py-8 px-6 border-t border-zinc-100">
+<div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-2"><div class="w-6 h-6 bg-gradient-to-br from-blue-600 to-violet-600 rounded flex items-center justify-center"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="font-bold">SijilKu</span></div>
+<p class="text-sm text-zinc-400">© 2026 SijilKu. Program Anda. Sijil Anda. Automatik.</p>
+</div>
+</footer>
+</body>
+</html>
